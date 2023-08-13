@@ -1,0 +1,56 @@
+.purchase {
+  width: 290px;
+  min-height: 165px;
+  padding: 40px 25px;
+  box-sizing: border-box;
+
+  border-radius: 10px;
+  background-color: #fbfbfb;
+  box-shadow: 4px 2px 4px 0px rgba(0, 0, 0, 0.1), -4px 0px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+.purchase-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 17px;
+}
+
+.purchase-price {
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: #333232;
+
+  margin: 0;
+}
+
+.purchase-button {
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #fff;
+
+  width: 100%;
+  padding: 10px;
+
+  border: none;
+  border-radius: 10px;
+  background: #2cb708;
+
+  cursor: pointer;
+  transition: background-color 0.1s;
+}
+
+.purchase-button:hover {
+  background-color: #28970c;
+}
+
+.purchase-button:active {
+  background-color: #53dc2f;
+}
