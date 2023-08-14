@@ -20,9 +20,8 @@
 .purchase-price {
   font-family: 'Roboto', Helvetica, sans-serif;
   font-size: 24px;
-  font-style: normal;
   font-weight: 500;
-  line-height: normal;
+  line-height: 1.2;
   color: #333232;
 
   margin: 0;
@@ -31,9 +30,8 @@
 .purchase-button {
   font-family: 'Roboto', Helvetica, sans-serif;
   font-size: 18px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
+  line-height: 1.2;
   color: #fff;
 
   width: 100%;
