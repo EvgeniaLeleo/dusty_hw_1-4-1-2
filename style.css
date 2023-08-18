@@ -1,4 +1,8 @@
 .purchase {
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-weight: 500;
+  line-height: 1.2;
+
   width: 290px;
   min-height: 165px;
   padding: 40px 25px;
@@ -18,13 +22,20 @@
 }
 
 .purchase-price {
-  font-family: 'Roboto', Helvetica, sans-serif;
   font-size: 24px;
-  font-weight: 500;
-  line-height: 1.2;
   color: #333232;
 
   margin: 0;
+}
+
+.purchase-label {
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #fff;
+
+  padding: 1px 4px;
+
+  background-color: #ff732b;
 }
 
 .purchase-button {
